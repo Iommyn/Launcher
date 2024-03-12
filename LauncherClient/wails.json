@@ -1,0 +1,13 @@
+{
+  "$schema": "https://wails.io/schemas/config.v2.json",
+  "name": "LauncherClient",
+  "outputfilename": "LauncherClient",
+  "frontend:install": "npm install",
+  "frontend:build": "npm run build",
+  "frontend:dev:watcher": "npm run dev",
+  "frontend:dev:serverUrl": "auto",
+  "author": {
+    "name": "Damir37",
+    "email": "damir.mullakhmetov.02@bk.ru"
+  }
+}
