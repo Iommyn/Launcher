@@ -1,0 +1,48 @@
+{
+  "consumes": [
+    "application/json"
+  ],
+  "produces": [
+    "application/json"
+  ],
+  "schemes": [
+    "https"
+  ],
+  "swagger": "2.0",
+  "info": {
+    "description": "Документация по API Launcher",
+    "title": "Launcher API.",
+    "version": "1.0.0"
+  },
+  "basePath": "/",
+  "paths": {
+    "/launcher/version/:version": {
+      "get": {
+        "description": "version\nFrontend отсылает версию в backend где она проверяется.\nВерсия состоит из числа, месяца и года. Например: 150324\n15 - это число 03 - это месяц(Март) 24 - это год 2024",
+        "operationId": "version",
+        "responses": {
+          "200": {
+            "$ref": "#/responses/launcherVersionResponse"
+          }
+        }
+      }
+    }
+  },
+  "responses": {
+    "launcherVersionResponse": {
+      "description": "VersionResponse Возвращает статус валидный лаунчер версии или нет",
+      "schema": {
+        "type": "object",
+        "properties": {
+          "valid": {
+            "type": "boolean",
+            "x-go-name": "Valid"
+          }
+        }
+      },
+      "headers": {
+        "Body": {}
+      }
+    }
+  }
+}
