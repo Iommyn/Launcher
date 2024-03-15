@@ -8,6 +8,7 @@ type Config struct {
 	MethodsAllow      string `mapstructure:"ALLOW_METHODS"`
 	HeadersAllow      string `mapstructure:"ALLOW_HEADERS"`
 	IsCredentials     bool   `mapstructure:"ALLOW_CREDENTIALS"`
+	DbConfig          string `mapstructure:"DB_CONFIG"`
 	ServerHttpAddress string `mapstructure:"SERVER_HTTP_ADDRESS"`
 	Ssl               bool   `mapstructure:"SSL"`
 	SslKey            string `mapstructure:"SSL_KEY"`
@@ -16,6 +17,7 @@ type Config struct {
 	MaxSizeFile       int    `mapstructure:"LOG_SIZE_FILE"`
 	MaxBackupFile     int    `mapstructure:"LOG_BACKUP_FILE_COUNT"`
 	MaxAgeFile        int    `mapstructure:"LOG_MAX_AGE"`
+	LauncherVersion   string `mapstructure:"LAUNCHER_VERSION"`
 }
 
 func LoadConfig(path string) (config Config, err error) {
