@@ -1,6 +1,9 @@
 package launcherserver
 
 import (
+	"LauncherServer/api"
+	db "LauncherServer/db/sqlc"
+	"LauncherServer/internal/database"
 	"LauncherServer/internal/utils"
 	"LauncherServer/internal/zaplogger"
 	"github.com/goccy/go-json"
@@ -64,6 +67,12 @@ func (web *WebServer) StartLauncherService() error {
 
 	web.App = app
 	zaplogger.Logger.Info("Инциализация структуры")
+
+	database.Store = db.NewStore(database.InitDataBase(config))
+	zaplogger.Logger.Info("Подключение к базе данных MySQL")
+
+	api.RegisterRoutes(app, config)
+	zaplogger.Logger.Info("Регистрация роутов")
 
 	if config.Ssl {
 		zaplogger.Logger.Info("Запуск службы лаунчера используя SSL", zap.String("IP", config.ServerHttpAddress))
