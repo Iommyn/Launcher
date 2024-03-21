@@ -24,17 +24,25 @@ func New(db DBTX) *Queries {
 func Prepare(ctx context.Context, db DBTX) (*Queries, error) {
 	q := Queries{db: db}
 	var err error
-	if q.getUserByUserNameStmt, err = db.PrepareContext(ctx, getUserByUserName); err != nil {
-		return nil, fmt.Errorf("error preparing query GetUserByUserName: %w", err)
+	if q.getUserBalanceByUserIdStmt, err = db.PrepareContext(ctx, getUserBalanceByUserId); err != nil {
+		return nil, fmt.Errorf("error preparing query GetUserBalanceByUserId: %w", err)
+	}
+	if q.getUserByUsernameStmt, err = db.PrepareContext(ctx, getUserByUsername); err != nil {
+		return nil, fmt.Errorf("error preparing query GetUserByUsername: %w", err)
 	}
 	return &q, nil
 }
 
 func (q *Queries) Close() error {
 	var err error
-	if q.getUserByUserNameStmt != nil {
-		if cerr := q.getUserByUserNameStmt.Close(); cerr != nil {
-			err = fmt.Errorf("error closing getUserByUserNameStmt: %w", cerr)
+	if q.getUserBalanceByUserIdStmt != nil {
+		if cerr := q.getUserBalanceByUserIdStmt.Close(); cerr != nil {
+			err = fmt.Errorf("error closing getUserBalanceByUserIdStmt: %w", cerr)
+		}
+	}
+	if q.getUserByUsernameStmt != nil {
+		if cerr := q.getUserByUsernameStmt.Close(); cerr != nil {
+			err = fmt.Errorf("error closing getUserByUsernameStmt: %w", cerr)
 		}
 	}
 	return err
@@ -74,15 +82,17 @@ func (q *Queries) queryRow(ctx context.Context, stmt *sql.Stmt, query string, ar
 }
 
 type Queries struct {
-	db                    DBTX
-	tx                    *sql.Tx
-	getUserByUserNameStmt *sql.Stmt
+	db                         DBTX
+	tx                         *sql.Tx
+	getUserBalanceByUserIdStmt *sql.Stmt
+	getUserByUsernameStmt      *sql.Stmt
 }
 
 func (q *Queries) WithTx(tx *sql.Tx) *Queries {
 	return &Queries{
-		db:                    tx,
-		tx:                    tx,
-		getUserByUserNameStmt: q.getUserByUserNameStmt,
+		db:                         tx,
+		tx:                         tx,
+		getUserBalanceByUserIdStmt: q.getUserBalanceByUserIdStmt,
+		getUserByUsernameStmt:      q.getUserByUsernameStmt,
 	}
 }

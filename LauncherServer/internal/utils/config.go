@@ -10,6 +10,9 @@ type Config struct {
 	IsCredentials     bool   `mapstructure:"ALLOW_CREDENTIALS"`
 	DbConfig          string `mapstructure:"DB_CONFIG"`
 	ServerHttpAddress string `mapstructure:"SERVER_HTTP_ADDRESS"`
+	RedisAddress      string `mapstructure:"REDIS_ADDRESS"`
+	RedisPassword     string `mapstructure:"REDIS_PASSWORD"`
+	RedisDB           int    `mapstructure:"REDIS_DB"`
 	Ssl               bool   `mapstructure:"SSL"`
 	SslKey            string `mapstructure:"SSL_KEY"`
 	SslCrt            string `mapstructure:"SSL_CRT"`
@@ -18,6 +21,7 @@ type Config struct {
 	MaxBackupFile     int    `mapstructure:"LOG_BACKUP_FILE_COUNT"`
 	MaxAgeFile        int    `mapstructure:"LOG_MAX_AGE"`
 	LauncherVersion   string `mapstructure:"LAUNCHER_VERSION"`
+	AuthValidUrl      string `mapstructure:"LAUNCHER_VERSION"`
 }
 
 func LoadConfig(path string) (config Config, err error) {

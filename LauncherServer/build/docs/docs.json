@@ -39,6 +39,9 @@
             "x-go-name": "Valid"
           }
         }
+      },
+      "headers": {
+        "Body": {}
       }
     }
   }

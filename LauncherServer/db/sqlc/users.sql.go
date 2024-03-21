@@ -9,12 +9,12 @@ import (
 	"context"
 )
 
-const getUserByUserName = `-- name: GetUserByUserName :one
+const getUserByUsername = `-- name: GetUserByUsername :one
 SELECT email, username, password, isadmin, ip, uuid, accesstoken, serverid, reg_data, last_login_site, id FROM users WHERE username = ? LIMIT 1
 `
 
-func (q *Queries) GetUserByUserName(ctx context.Context, username string) (User, error) {
-	row := q.queryRow(ctx, q.getUserByUserNameStmt, getUserByUserName, username)
+func (q *Queries) GetUserByUsername(ctx context.Context, username string) (User, error) {
+	row := q.queryRow(ctx, q.getUserByUsernameStmt, getUserByUsername, username)
 	var i User
 	err := row.Scan(
 		&i.Email,

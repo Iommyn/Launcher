@@ -2,7 +2,9 @@ package handle
 
 import (
 	"LauncherServer/internal/utils"
+	"LauncherServer/internal/zaplogger"
 	"github.com/gofiber/fiber/v2"
+	"go.uber.org/zap"
 )
 
 type launcherVersionResponse struct {
@@ -20,6 +22,8 @@ type launcherVersionResponse struct {
 func LauncherVersionController(ctx *fiber.Ctx, config utils.Config) error {
 	version := ctx.Params("version")
 	if len(version) == 0 || version != config.LauncherVersion {
+		zaplogger.Logger.Error("CheckVersion: Проверка на версию не пройдена", zap.String("version_old", version),
+			zap.String("version_new", config.LauncherVersion))
 		response := launcherVersionResponse{
 			Valid: false,
 		}
@@ -28,5 +32,7 @@ func LauncherVersionController(ctx *fiber.Ctx, config utils.Config) error {
 	response := launcherVersionResponse{
 		Valid: true,
 	}
+	zaplogger.Logger.Info("CheckVersion: Проверка на версию пройдена", zap.String("version_old", version),
+		zap.String("version_new", config.LauncherVersion))
 	return ctx.Status(200).JSON(response)
 }

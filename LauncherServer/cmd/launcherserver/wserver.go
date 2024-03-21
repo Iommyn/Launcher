@@ -3,8 +3,10 @@ package launcherserver
 import (
 	"LauncherServer/api"
 	db "LauncherServer/db/sqlc"
+	"LauncherServer/internal/cache"
 	"LauncherServer/internal/database"
 	"LauncherServer/internal/utils"
+	"LauncherServer/internal/valider"
 	"LauncherServer/internal/zaplogger"
 	"github.com/goccy/go-json"
 	"github.com/gofiber/fiber/v2"
@@ -68,8 +70,14 @@ func (web *WebServer) StartLauncherService() error {
 	web.App = app
 	zaplogger.Logger.Info("Инциализация структуры")
 
+	valider.InitValider()
+	zaplogger.Logger.Info("Валидация успешно инциализирована")
+
 	database.Store = db.NewStore(database.InitDataBase(config))
 	zaplogger.Logger.Info("Подключение к базе данных MySQL")
+
+	cache.InitCacheRedis(config)
+	zaplogger.Logger.Info("Соединение с кэшированием Redis")
 
 	api.RegisterRoutes(app, config)
 	zaplogger.Logger.Info("Регистрация роутов")
