@@ -1,0 +1,19 @@
+.version {
+    @apply ml-[175px] mt-[69px] flex items-center mb-[28px]
+}
+
+.title_version {
+    @apply text-white text-[18px] font-RubikSemiBold
+}
+
+.btn_version {
+    @apply  ml-[37px] text-white text-[14px] font-RubikSemiBold w-[94px] h-[34px] bg-blue-950 rounded-[8px]
+}
+
+.btn_versionTwo {
+    @apply text-white text-[14px] font-RubikSemiBold w-[94px] h-[34px] bg-blue-950 rounded-[8px]
+}
+
+.active {
+    @apply scale-x-110 w-[94px] h-[34px] bg-blue-600 rounded-[8px]
+}

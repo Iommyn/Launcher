@@ -7,8 +7,7 @@ import (
 )
 
 func RegisterRoutesMiddleware(app *fiber.App, config utils.Config) {
-	launcherMiddle := app.Group("launcher/middle")
-	//.Use(authMiddleware(config))
+	launcherMiddle := app.Group("launcher/middle").Use(authMiddleware(config))
 
 	launcherMiddle.Get("/profile/:username", handle.ProfileController)
 

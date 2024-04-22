@@ -283,3 +283,95 @@
 {"level":"info","timestamp":"2024-03-21T17:45:15.843+0700","msg":"Соединение с кэшированием Redis"}
 {"level":"info","timestamp":"2024-03-21T17:45:15.844+0700","msg":"Регистрация роутов"}
 {"level":"info","timestamp":"2024-03-21T17:45:15.844+0700","msg":"Запуск службы лаунчера без SSL","IP":"127.0.0.1:5000"}
+{"level":"info","timestamp":"2024-04-22T17:11:36.355+0700","msg":"Конфигурация загружена успешно!"}
+{"level":"info","timestamp":"2024-04-22T17:11:36.380+0700","msg":"Логгер инциализирован!"}
+{"level":"info","timestamp":"2024-04-22T17:11:36.380+0700","msg":"Настройка Fiber успешно прошла"}
+{"level":"info","timestamp":"2024-04-22T17:11:36.380+0700","msg":"Инциализация логгера для Fiber"}
+{"level":"info","timestamp":"2024-04-22T17:11:36.380+0700","msg":"Настройка прав доступа к доменам CORS"}
+{"level":"info","timestamp":"2024-04-22T17:11:36.380+0700","msg":"Инциализация структуры"}
+{"level":"info","timestamp":"2024-04-22T17:11:36.380+0700","msg":"Валидация успешно инциализирована"}
+{"level":"info","timestamp":"2024-04-22T17:11:36.380+0700","msg":"Подключение к базе данных MySQL"}
+{"level":"info","timestamp":"2024-04-22T17:11:36.380+0700","msg":"Соединение с кэшированием Redis"}
+{"level":"info","timestamp":"2024-04-22T17:11:36.381+0700","msg":"Регистрация роутов"}
+{"level":"info","timestamp":"2024-04-22T17:11:36.381+0700","msg":"Запуск службы лаунчера без SSL","IP":"127.0.0.1:5000"}
+{"level":"info","timestamp":"2024-04-22T17:21:04.424+0700","msg":"CheckVersion: Проверка на версию пройдена","version_old":"150324","version_new":"150324"}
+{"level":"info","timestamp":"2024-04-22T17:22:17.683+0700","msg":"GetServers: Получение информации о серверах"}
+{"level":"info","timestamp":"2024-04-22T17:22:17.697+0700","msg":"GetServers: Формируем запрос"}
+{"level":"info","timestamp":"2024-04-22T19:06:54.261+0700","msg":"Конфигурация загружена успешно!"}
+{"level":"info","timestamp":"2024-04-22T19:06:54.287+0700","msg":"Логгер инциализирован!"}
+{"level":"info","timestamp":"2024-04-22T19:06:54.287+0700","msg":"Настройка Fiber успешно прошла"}
+{"level":"info","timestamp":"2024-04-22T19:06:54.287+0700","msg":"Инциализация логгера для Fiber"}
+{"level":"info","timestamp":"2024-04-22T19:06:54.287+0700","msg":"Настройка прав доступа к доменам CORS"}
+{"level":"info","timestamp":"2024-04-22T19:06:54.287+0700","msg":"Инциализация структуры"}
+{"level":"info","timestamp":"2024-04-22T19:06:54.288+0700","msg":"Валидация успешно инциализирована"}
+{"level":"info","timestamp":"2024-04-22T19:06:54.288+0700","msg":"Подключение к базе данных MySQL"}
+{"level":"info","timestamp":"2024-04-22T19:06:54.288+0700","msg":"Соединение с кэшированием Redis"}
+{"level":"info","timestamp":"2024-04-22T19:06:54.288+0700","msg":"Регистрация роутов"}
+{"level":"info","timestamp":"2024-04-22T19:06:54.288+0700","msg":"Запуск службы лаунчера без SSL","IP":"127.0.0.1:5000"}
+{"level":"info","timestamp":"2024-04-22T19:06:56.156+0700","msg":"GetServers: Получение информации о серверах"}
+{"level":"info","timestamp":"2024-04-22T19:06:56.169+0700","msg":"GetServers: Формируем запрос"}
+{"level":"info","timestamp":"2024-04-22T19:25:07.002+0700","msg":"Конфигурация загружена успешно!"}
+{"level":"info","timestamp":"2024-04-22T19:25:07.027+0700","msg":"Логгер инциализирован!"}
+{"level":"info","timestamp":"2024-04-22T19:25:07.027+0700","msg":"Настройка Fiber успешно прошла"}
+{"level":"info","timestamp":"2024-04-22T19:25:07.027+0700","msg":"Инциализация логгера для Fiber"}
+{"level":"info","timestamp":"2024-04-22T19:25:07.027+0700","msg":"Настройка прав доступа к доменам CORS"}
+{"level":"info","timestamp":"2024-04-22T19:25:07.027+0700","msg":"Инциализация структуры"}
+{"level":"info","timestamp":"2024-04-22T19:25:07.028+0700","msg":"Валидация успешно инциализирована"}
+{"level":"info","timestamp":"2024-04-22T19:25:07.028+0700","msg":"Подключение к базе данных MySQL"}
+{"level":"info","timestamp":"2024-04-22T19:25:07.028+0700","msg":"Соединение с кэшированием Redis"}
+{"level":"info","timestamp":"2024-04-22T19:25:07.028+0700","msg":"Регистрация роутов"}
+{"level":"info","timestamp":"2024-04-22T19:25:07.028+0700","msg":"Запуск службы лаунчера без SSL","IP":"127.0.0.1:5000"}
+{"level":"error","timestamp":"2024-04-22T19:25:09.850+0700","msg":"Middleware: Ошибка на Frontend не указан заголовок authorization"}
+{"level":"error","timestamp":"2024-04-22T19:26:23.557+0700","msg":"Middleware: Сервис авторизации недоступен"}
+{"level":"info","timestamp":"2024-04-22T19:27:06.017+0700","msg":"Конфигурация загружена успешно!"}
+{"level":"info","timestamp":"2024-04-22T19:27:06.042+0700","msg":"Логгер инциализирован!"}
+{"level":"info","timestamp":"2024-04-22T19:27:06.042+0700","msg":"Настройка Fiber успешно прошла"}
+{"level":"info","timestamp":"2024-04-22T19:27:06.042+0700","msg":"Инциализация логгера для Fiber"}
+{"level":"info","timestamp":"2024-04-22T19:27:06.042+0700","msg":"Настройка прав доступа к доменам CORS"}
+{"level":"info","timestamp":"2024-04-22T19:27:06.042+0700","msg":"Инциализация структуры"}
+{"level":"info","timestamp":"2024-04-22T19:27:06.043+0700","msg":"Валидация успешно инциализирована"}
+{"level":"info","timestamp":"2024-04-22T19:27:06.043+0700","msg":"Подключение к базе данных MySQL"}
+{"level":"info","timestamp":"2024-04-22T19:27:06.043+0700","msg":"Соединение с кэшированием Redis"}
+{"level":"info","timestamp":"2024-04-22T19:27:06.043+0700","msg":"Регистрация роутов"}
+{"level":"info","timestamp":"2024-04-22T19:27:06.043+0700","msg":"Запуск службы лаунчера без SSL","IP":"127.0.0.1:5000"}
+{"level":"error","timestamp":"2024-04-22T19:27:07.722+0700","msg":"Middleware: Сервис авторизации недоступен ","error":"Get \"150324v2.local.-r7tdqkUlf6L45RoEuQbuvm2u8rMTsCq8uOMP6Hp_fAsO_zoCkXZpZgkgjusT5WIhlRLzpGX_EAu_cnGBUcRrs9C5z7x4MZNOcCtf3zHr-YkLNnvuCMQK6n1pI6fg9YOGqUOL4g6YW0fhmIbhC8wBdUvYI27orjcIX-yAv_GQea8UDYLYxNn2KQR8qIg5J8pOAjt8Xyl_-YrWmDvsS67Ad9HT3iljT1Pj9dmacxaMuQ4OWQjA0VQmixHPZEhw0CHsKqYPJttfsw7oaOrQCk.bnVsbA\": unsupported protocol scheme \"\""}
+{"level":"error","timestamp":"2024-04-22T19:28:18.957+0700","msg":"Middleware: Сервис авторизации недоступен ","error":"Get \"150324v2.local.-r7tdqkUlf6L45RoEuQbuvm2u8rMTsCq8uOMP6Hp_fAsO_zoCkXZpZgkgjusT5WIhlRLzpGX_EAu_cnGBUcRrs9C5z7x4MZNOcCtf3zHr-YkLNnvuCMQK6n1pI6fg9YOGqUOL4g6YW0fhmIbhC8wBdUvYI27orjcIX-yAv_GQea8UDYLYxNn2KQR8qIg5J8pOAjt8Xyl_-YrWmDvsS67Ad9HT3iljT1Pj9dmacxaMuQ4OWQjA0VQmixHPZEhw0CHsKqYPJttfsw7oaOrQCk.bnVsbA\": unsupported protocol scheme \"\""}
+{"level":"info","timestamp":"2024-04-22T19:29:09.372+0700","msg":"Конфигурация загружена успешно!"}
+{"level":"info","timestamp":"2024-04-22T19:29:09.397+0700","msg":"Логгер инциализирован!"}
+{"level":"info","timestamp":"2024-04-22T19:29:09.397+0700","msg":"Настройка Fiber успешно прошла"}
+{"level":"info","timestamp":"2024-04-22T19:29:09.397+0700","msg":"Инциализация логгера для Fiber"}
+{"level":"info","timestamp":"2024-04-22T19:29:09.398+0700","msg":"Настройка прав доступа к доменам CORS"}
+{"level":"info","timestamp":"2024-04-22T19:29:09.398+0700","msg":"Инциализация структуры"}
+{"level":"info","timestamp":"2024-04-22T19:29:09.398+0700","msg":"Валидация успешно инциализирована"}
+{"level":"info","timestamp":"2024-04-22T19:29:09.398+0700","msg":"Подключение к базе данных MySQL"}
+{"level":"info","timestamp":"2024-04-22T19:29:09.398+0700","msg":"Соединение с кэшированием Redis"}
+{"level":"info","timestamp":"2024-04-22T19:29:09.398+0700","msg":"Регистрация роутов"}
+{"level":"info","timestamp":"2024-04-22T19:29:09.398+0700","msg":"Запуск службы лаунчера без SSL","IP":"127.0.0.1:5000"}
+{"level":"info","timestamp":"2024-04-22T19:29:12.829+0700","msg":"GetServers: Получение информации о серверах"}
+{"level":"info","timestamp":"2024-04-22T19:29:12.925+0700","msg":"GetServers: Формируем запрос"}
+{"level":"info","timestamp":"2024-04-22T19:36:01.730+0700","msg":"Конфигурация загружена успешно!"}
+{"level":"info","timestamp":"2024-04-22T19:36:01.757+0700","msg":"Логгер инциализирован!"}
+{"level":"info","timestamp":"2024-04-22T19:36:01.757+0700","msg":"Настройка Fiber успешно прошла"}
+{"level":"info","timestamp":"2024-04-22T19:36:01.757+0700","msg":"Инциализация логгера для Fiber"}
+{"level":"info","timestamp":"2024-04-22T19:36:01.757+0700","msg":"Настройка прав доступа к доменам CORS"}
+{"level":"info","timestamp":"2024-04-22T19:36:01.758+0700","msg":"Инциализация структуры"}
+{"level":"info","timestamp":"2024-04-22T19:36:01.758+0700","msg":"Валидация успешно инциализирована"}
+{"level":"info","timestamp":"2024-04-22T19:36:01.758+0700","msg":"Подключение к базе данных MySQL"}
+{"level":"info","timestamp":"2024-04-22T19:36:01.758+0700","msg":"Соединение с кэшированием Redis"}
+{"level":"info","timestamp":"2024-04-22T19:36:01.758+0700","msg":"Регистрация роутов"}
+{"level":"info","timestamp":"2024-04-22T19:36:01.758+0700","msg":"Запуск службы лаунчера без SSL","IP":"127.0.0.1:5000"}
+{"level":"error","timestamp":"2024-04-22T19:36:16.835+0700","msg":"Middleware: Токен истёк #1"}
+{"level":"error","timestamp":"2024-04-22T19:36:34.190+0700","msg":"Middleware: Токен истёк #1"}
+{"level":"error","timestamp":"2024-04-22T19:36:37.000+0700","msg":"Middleware: Токен истёк #1"}
+{"level":"info","timestamp":"2024-04-22T19:36:54.691+0700","msg":"GetServers: Получение информации о серверах"}
+{"level":"info","timestamp":"2024-04-22T19:36:54.786+0700","msg":"GetServers: Формируем запрос"}
+{"level":"error","timestamp":"2024-04-22T19:41:45.674+0700","msg":"Middleware: Ошибка на Frontend не указан заголовок authorization"}
+{"level":"error","timestamp":"2024-04-22T19:41:51.456+0700","msg":"Middleware: Токен истёк #1"}
+{"level":"info","timestamp":"2024-04-22T19:42:03.096+0700","msg":"GetProfile: Валидация данных"}
+{"level":"info","timestamp":"2024-04-22T19:42:03.097+0700","msg":"GetProfile: Проверка есть ли в кэши данные"}
+{"level":"error","timestamp":"2024-04-22T19:42:03.188+0700","msg":"GetProfile: Ошибка получения данных с кэша","error":"dial tcp 127.0.0.1:6379: connectex: No connection could be made because the target machine actively refused it."}
+{"level":"info","timestamp":"2024-04-22T19:42:26.091+0700","msg":"GetProfile: Валидация данных"}
+{"level":"info","timestamp":"2024-04-22T19:42:26.091+0700","msg":"GetProfile: Проверка есть ли в кэши данные"}
+{"level":"info","timestamp":"2024-04-22T19:42:26.099+0700","msg":"GetProfile: Получения с базы данных профиля"}
+{"level":"info","timestamp":"2024-04-22T19:42:26.115+0700","msg":"GetProfile: Получения с базы данных профиля пользователя"}
+{"level":"info","timestamp":"2024-04-22T19:42:26.118+0700","msg":"GetProfile: Профиль получен!","userID":4426,"username":"xfrutela","isAdmin":false,"balance":0}

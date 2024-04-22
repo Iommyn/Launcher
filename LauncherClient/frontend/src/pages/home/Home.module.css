@@ -1,0 +1,16 @@
+.container {
+    display: flex;
+    width: 100%;
+}
+
+.slider {
+    @apply bg-panel_bg w-[668px] h-[146px] mt-[42px] ml-[148px] rounded-[11px] pt-[27px] pl-[35px] mb-[28px]
+}
+
+.gameServer {
+    @apply absolute bg-panel_bg w-[418px] h-[270px] ml-[148px] rounded-[11px]
+}
+
+.AccountDetails {
+    @apply relative bg-panel_bg w-[222px] h-[270px] ml-[594px] rounded-[11px]
+}

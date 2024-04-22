@@ -6,6 +6,7 @@ import (
 	"LauncherServer/internal/zaplogger"
 	"fmt"
 	"github.com/gofiber/fiber/v2"
+	"go.uber.org/zap"
 	"net/http"
 	"strings"
 )
@@ -35,7 +36,7 @@ func authMiddleware(config utils.Config) func(*fiber.Ctx) error {
 		accessToken := fields[1]
 		resp, err := http.Get(fmt.Sprintf("%s%s", config.AuthValidUrl, accessToken))
 		if err != nil {
-			zaplogger.Logger.Error("Middleware: Сервис авторизации недоступен")
+			zaplogger.Logger.Error("Middleware: Сервис авторизации недоступен ", zap.Error(err))
 			return handle.SendToClientError(ctx, "Сервис авторизации недоступен", fiber.StatusInternalServerError)
 		}
 		defer resp.Body.Close()

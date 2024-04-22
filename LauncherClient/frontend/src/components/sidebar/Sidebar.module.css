@@ -1,0 +1,20 @@
+.sidebar {
+    @apply z-20 w-[120px] h-[500px] bg-sidebar fixed top-0;
+}
+
+.wrapper {
+    @apply mx-[45px] my-[34px] mt-[200px] space-y-[26px]
+}
+
+
+.item {
+    @apply cursor-pointer pt-12
+}
+
+.home {
+    @apply hover:scale-90 duration-300
+}
+
+.info {
+    @apply hover:scale-90 duration-300
+}

@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+
+* {
+    scrollbar-width: none;
+    box-sizing: border-box;
+    flex-shrink: 0;
+}
+
+* {
+    @apply m-0 p-0;
+}
+
+.handleClose {
+    @apply auth_width_launcher:ml-[473px] ml-[843px] text-[19px] mt-[35px] z-50 cursor-pointer absolute inline-block duration-500 text-white hover:text-gray-400;
+    --wails-draggable: no-drag;
+}
+
+
+.logo {
+    @apply absolute z-50 mt-[35px] ml-[52px] duration-500 hover:scale-125 cursor-pointer;
+    --wails-draggable: no-drag;
+}
+
+body {
+    @apply bg-launcher h-screen;
+    --wails-draggable: drag;
+}
+
+
+
+
+

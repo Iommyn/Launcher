@@ -1,0 +1,28 @@
+.wrapper {
+    @apply py-[26px] px-[30px]
+}
+
+.h1 {
+    @apply text-[14px] text-white font-RubikSemiBold pb-[36px]
+}
+
+.wrapper_content {
+    @apply flex text-white mb-2 justify-between
+}
+
+.container {
+    @apply flex items-center
+}
+
+
+.title {
+    @apply ml-[11px] text-[14px] font-RubikRegular mt-[1px]
+}
+
+.title_content {
+    @apply text-[14px] font-RubikSemiBold mt-[2px]
+}
+
+.button {
+    @apply w-[145px] h-[31px] border-2 ml-[10px] border-gray-500 mt-7 rounded-[8px] text-white text-[13px] font-RubikRegular duration-300 hover:border-blue-200
+}

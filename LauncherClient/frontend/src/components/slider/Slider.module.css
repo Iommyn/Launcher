@@ -1,0 +1,41 @@
+
+
+.title {
+    @apply text-white text-[20px] font-RubikSemiBold mb-[17px];
+}
+
+.description {
+    @apply text-gray-400 text-[14px] font-RubikRegular leading-[17px]
+}
+
+.slideContent {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+}
+
+.slideImage {
+    @apply z-50 pb-5 absolute pl-[330px]
+}
+
+
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.dot {
+    height: 7px;
+    width: 7px;
+    background-color: #5f5f5f;
+    border-radius: 50%;
+    margin: 0 5px;
+    transition: background-color 0.3s ease;
+}
+
+.activeDot {
+    background-color: #fff;
+}

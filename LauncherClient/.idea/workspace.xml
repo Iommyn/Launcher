@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="ALL" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="421074d1-2fac-45a0-a75b-4b5cfcf3f82c" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/frontend/postcss.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/fonts/Rubik-Regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/fonts/Rubik-SemiBold.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/balance.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/bg_panel.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/blue_before.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/element.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/home.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/home_active.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/img.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/info.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/info_active.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/nickname.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/player.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/purple_after.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/settings.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/images/status.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/UI/input/Input.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/UI/input/Input.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/UI/preloader/Preloader.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/UI/preloader/Preloader.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/accountdetails/AccountDetails.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/accountdetails/AccountDetails.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/accountdetails/Details.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/gameserver/GameServer.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/gameserver/GameServer.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/gameserver/Server.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/serverinfopanel/ServerInfo.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/serverinfopanel/ServerInfo.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/sidebar/Sidebar.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/sidebar/Sidebar.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/slider/Slider.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/slider/Slider.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/versioninfo/Version.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/versioninfo/Version.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/information/Account.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/information/Server_Info.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/information/Slider.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/pages/auth/Auth.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/pages/auth/auth.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/pages/home/Home.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/pages/home/Home.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/pages/info/Info.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/pages/info/Info.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/style.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/types/types.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/tailwind.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.go" beforeDir="false" afterPath="$PROJECT_DIR$/app.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/appicon.png" beforeDir="false" afterPath="$PROJECT_DIR$/build/appicon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/windows/icon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/build/windows/icon.ico" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/.idea/discord.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/.idea/frontend.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/package.json.md5" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/package.json.md5" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/main.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/main.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/vite.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/vite.config.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/go.sum" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wails.json" beforeDir="false" afterPath="$PROJECT_DIR$/wails.json" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="GOROOT" url="file://$PROJECT_DIR$/../../../Program Files/Go" />
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2fRoZZbdJg9nndkPk1WOQQOc0pF" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.go.formatter.settings.were.checked": "true",
+    "RunOnceActivity.go.migrated.go.modules.settings": "true",
+    "RunOnceActivity.go.modules.go.list.on.any.changes.was.set": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "go.import.settings.migrated": "true",
+    "go.sdk.automatically.set": "true",
+    "last_opened_file_path": "C:/Microservice/LauncherService/LauncherClient/frontend",
+    "node.js.detected.package.eslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "ts.external.directory.path": "C:\\Microservice\\LauncherService\\LauncherClient\\frontend\\node_modules\\typescript\\lib"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Microservice\LauncherService\LauncherClient\frontend" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VgoProject">
+    <settings-migrated>true</settings-migrated>
+  </component>
+</project>

@@ -1,0 +1,37 @@
+.ServerInfo {
+    @apply absolute bg-img-panel w-[452px] h-[289px] ml-[175px] rounded-[11px] flex justify-between
+}
+
+.wrapper {
+    @apply mx-[45px] mt-[80px] text-white w-[300px] break-words
+}
+
+.title {
+    @apply text-[16px] font-RubikSemiBold mb-[30px]
+}
+
+
+.description {
+    @apply text-[14px] font-RubikRegular mb-[30px]
+}
+
+.button {
+    @apply w-[139px] h-[38px] rounded-[13px] bg-white text-black font-RubikSemiBold transition-transform duration-300 ease-in-out hover:scale-105;
+}
+
+.link {
+    @apply ml-4 font-RubikRegular text-[15px] cursor-pointer hover:text-gray-300
+}
+
+.container {
+    @apply flex-col ml-[100px] space-y-[23px]
+}
+
+.server {
+    @apply w-[194px] h-[81px] rounded-[14px] bg-blue-950 text-center pt-7 text-white font-RubikSemiBold cursor-pointer
+}
+
+.active {
+    @apply w-[194px] h-[81px] rounded-[14px] bg-blue-500  text-center pt-7 text-white font-RubikSemiBold cursor-pointer
+}
+

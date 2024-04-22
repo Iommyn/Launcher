@@ -9,5 +9,14 @@
   "author": {
     "name": "Damir37",
     "email": "damir.mullakhmetov.02@bk.ru"
+  },
+  "info": {
+    "ProductVersion": "1.0.0",
+    "CompanyName": "CoreCraft Launcher",
+    "FileDescription": "Launcher minecraft for CoreCraft",
+    "LegalCopyright": "Copyright CoreCraft",
+    "ProductName": "CoreCraft Launcher",
+    "Copyright": "Copyright ©2024 CoreCraft",
+    "Comments": "CoreCraft"
   }
 }

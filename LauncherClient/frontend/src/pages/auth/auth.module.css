@@ -1,0 +1,84 @@
+
+.section {
+    @apply relative;
+}
+
+.wrapper {
+    @apply mx-[117px] absolute my-[87px];
+}
+
+.h1 {
+    @apply text-white text-center text-[20px] font-RubikSemiBold leading-[24px] mb-[19px];
+    --wails-draggable: no-drag;
+}
+
+.h2 {
+    @apply text-white text-center text-[13px]  font-RubikRegular mb-[57px]
+}
+
+.span {
+    @apply relative text-blue-400 cursor-pointer duration-500 z-30 hover:text-gray-500
+}
+
+.container {
+    @apply flex flex-col;
+    --wails-draggable: no-drag;
+}
+
+.btn {
+    @apply flex justify-center relative w-[287px] mt-[16px] font-RubikRegular z-20 text-white  rounded-lg bg-btn_auth mb-[28px] p-2 text-[15px] transition duration-300 ease-in-out shadow-md
+}
+
+.btn:hover {
+    transition: 0.3s;
+    box-shadow: 0 0 14px #0c83ff;
+    --wails-draggable: no-drag;
+}
+
+.element {
+    @apply pl-[240px] absolute py-1
+}
+
+.recovery {
+    @apply relative text-link text-[13px] z-20 cursor-pointer font-RubikRegular duration-500 hover:text-gray-500 w-max mb-[10px];
+    --wails-draggable: no-drag;
+}
+
+.problems {
+    @apply relative text-link text-[13px] z-20 cursor-pointer font-RubikRegular duration-500 hover:text-gray-500 w-max;
+    --wails-draggable: no-drag;
+}
+
+.checkbox {
+    @apply relative pl-[25px] text-gray-400;
+    --wails-draggable: no-drag;
+}
+
+.checkbox input[type=checkbox] {
+    @apply hidden
+}
+
+.checkbox label:after {
+    content:'';
+    display:block;
+    outline:1px solid #393e4f;
+    border-radius: 4px;
+    margin-top: 5px;
+    margin-left: 2px;
+    position:absolute;
+    height:15px;
+    width:15px;
+    top:0;
+    left:0;
+}
+.checkbox input[type=checkbox]:checked + label:after {
+    outline:1px solid #272c35;
+    border:2px solid #434c5a;
+    height:15px;
+    width:15px;
+    background-color: #c3c3c3;
+}
+
+.element {
+    @apply hover:pt-2 hover:animate-bounce duration-300
+}

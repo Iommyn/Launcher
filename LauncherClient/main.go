@@ -2,11 +2,13 @@ package main
 
 import (
 	"embed"
+
 	"github.com/wailsapp/wails/v2"
 	"github.com/wailsapp/wails/v2/pkg/options"
 	"github.com/wailsapp/wails/v2/pkg/options/assetserver"
 )
 
+//go:embed all:frontend/dist
 var assets embed.FS
 
 func main() {
@@ -14,8 +16,6 @@ func main() {
 
 	err := wails.Run(&options.App{
 		Title:         "CoreCraft",
-		Width:         900,
-		Height:        500,
 		DisableResize: true,
 		AssetServer: &assetserver.Options{
 			Assets: assets,

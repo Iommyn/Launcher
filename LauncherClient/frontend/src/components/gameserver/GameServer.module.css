@@ -1,0 +1,20 @@
+
+.wrapper {
+    @apply my-[26px] mx-[35px]
+}
+
+.h1 {
+    @apply text-[14px] text-white font-RubikSemiBold pb-[45px]
+}
+
+.server {
+    @apply flex justify-between text-white mb-4
+}
+
+.infoServer {
+    @apply flex items-center
+}
+
+.progress {
+    @apply ml-2 w-[128px] h-[7px] bg-blue-400 rounded-[4.5px]
+}

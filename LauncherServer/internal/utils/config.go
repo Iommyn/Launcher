@@ -21,7 +21,7 @@ type Config struct {
 	MaxBackupFile     int    `mapstructure:"LOG_BACKUP_FILE_COUNT"`
 	MaxAgeFile        int    `mapstructure:"LOG_MAX_AGE"`
 	LauncherVersion   string `mapstructure:"LAUNCHER_VERSION"`
-	AuthValidUrl      string `mapstructure:"LAUNCHER_VERSION"`
+	AuthValidUrl      string `mapstructure:"AUTH_VALID_URL"`
 }
 
 func LoadConfig(path string) (config Config, err error) {

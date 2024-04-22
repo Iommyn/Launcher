@@ -17,6 +17,7 @@ import (
 type ServerBaseConfig struct {
 	DescriptionMods []string `json:"descriptionMods"`
 	ServerVersion   string   `json:"serverVersion"`
+	MiniDescription string   `json:"miniDescription"`
 }
 
 type serverResponse struct {
@@ -24,6 +25,7 @@ type serverResponse struct {
 	ServerVersion   string   `json:"serverVersion"`
 	ServerOnline    int      `json:"serverOnline"`
 	DescriptionMods []string `json:"descriptionMods"`
+	MiniDescription string   `json:"miniDescription"`
 }
 
 type serverConfigRunResponse struct {
@@ -88,6 +90,7 @@ func ServerController(ctx *fiber.Ctx) error {
 			ServerName:      serverName,
 			ServerOnline:    serverOnlineInt,
 			DescriptionMods: serverConfig.DescriptionMods,
+			MiniDescription: serverConfig.MiniDescription,
 			ServerVersion:   serverConfig.ServerVersion,
 		})
 	}

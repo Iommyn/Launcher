@@ -1,0 +1,7 @@
+.container {
+    @apply flex w-[100%] bg-page_info h-screen
+}
+
+
+
+
